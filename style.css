@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+body {
+    font-family: 'Anuphan', sans-serif;
+    height: 90vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coordinates {
+    display: flex;
+}
+.forms {
+    margin-right: 1rem;
+}
+.forms #coords {
+    display: flex;
+    flex-direction: column;
+}
+.forms #coords label {
+    font-size: 1.2rem;
+}
+.forms #coords input {
+    width: 13rem;
+    font-size: 1.3rem;
+}
+#latitude {
+    margin-bottom: 2rem;
+}
+#submit_btn {
+    margin-top: 1.2rem;
+    color: white;
+    border-radius: 0.2rem;
+    background-color: rgb(18, 128, 224);
+    border: 1px solid white;
+    height: 2.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#get_coords {
+    text-align: center;
+    color: rgb(41, 124, 168);
+    text-decoration: underline;
+    cursor: pointer;
+}
+#map {
+    width: 51rem;
+    height: 42rem;
+}

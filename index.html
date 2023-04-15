@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opposite side of earth</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="margin-bottom: 0.6rem">What is on the opposite side of Earth from you?</h2>
+        <p style="margin-bottom: 1.5rem; font-weight: bold">Type in coordinates or see your own</p>
+        <div class="coordinates">
+            <div class="forms">
+                <form id="coords">
+                    <label>Latitude:</label>
+                    <input id="latitude">
+                    <label>Longitude:</label>
+                    <input id="longitude">
+                    <button id="submit_btn">Search</button>
+                </form>
+                <p id="get_coords">Get your coordinates</p>
+            </div>
+            <div class="map">
+                <iframe style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?f=q&source=s_q&hl=en&output=embed&t=k" id="map"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
